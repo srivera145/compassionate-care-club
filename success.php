@@ -1,16 +1,25 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compassionate Care Club | Active</title>
     <link rel="icon" href="favicon.ico" type="image/png">
+    <link rel="stylesheet" href="success.css">
   </head>
   <body>
-    <h1>Thanks for your order!</h1>
-    <h1>Your monthly subscription is active!</h1>
+    <card>
+      <h1>
+        Thank You for your Subscription! <br>
+        Your monthly subscription is active!
+      </h1>
+  
     <p>
       We appreciate your time!
       If you have any questions, please email: srivera145@gmail.com
-      <a href="index.php">home</a>.
     </p>
+      <a href="index.php">Home</a>
+    </card>
   </body>
 </html>

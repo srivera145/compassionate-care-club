@@ -3,8 +3,8 @@ require 'vendor/autoload.php';
  \Stripe\Stripe::setApiKey('sk_test_51N44CEEo9JK0lLFsfXZTtDea1kpYrznvpxwGnlIWNdyH3V5kCCEVKY7LNhJDdstzyxqiMsFFgRVJuaFJpix93k5800DTzePmbb');
 
   $checkout_session = \Stripe\Checkout\Session::create([
-      'success_url' => 'http://localhost/stripe-subscription/success.php',
-      'cancel_url' => 'http://localhost/stripe-subscription/cancel.html',
+      'success_url' => 'https://ccc25club.herokuapp.com/success.php',
+      'cancel_url' => 'https://ccc25club.herokuapp.com/cancel.html',
       'payment_method_types' => ['card'],
       'mode' => 'subscription',
       'line_items' => [[

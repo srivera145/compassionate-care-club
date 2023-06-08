@@ -19,7 +19,7 @@
       We appreciate your time!
       If you have any questions, please email: srivera145@gmail.com
     </p>
-      <?php header("refresh:5;url:index.php") ?>
+      <?php header("refresh:5;url=https://ccc25club.herokuapp.com"); ?>
     </card>
   </body>
 </html>

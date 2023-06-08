@@ -19,7 +19,7 @@
       We appreciate your time!
       If you have any questions, please email: srivera145@gmail.com
     </p>
-      <a href="index.php">Home</a>
+      <?php header("refresh:5;url:index.php") ?>
     </card>
   </body>
 </html>
